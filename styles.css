@@ -55,13 +55,18 @@ a:hover {
   color: white
 }
 
-header {
+.main-header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/background-image.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
+.secondary-header {
+  text-align: center;
+  padding-top: 60px;
+}
+
 header {
   line-height: 1.5;
 }
@@ -70,7 +75,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 6px double white;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -86,7 +91,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: white;
 }
 .card {
   margin: 30px;
@@ -99,7 +104,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: green;
 }
 
 ul.skills {
@@ -108,16 +113,16 @@ ul.skills {
 }
 
 .skills li {
-  border-radius: 6px;
+  border-radius: 2px;
   display: inline-block;
-  background: #ff9904;
+  background: #3204ff;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #ff03b3;
 }
 
 footer {
